@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    * {
+        font-family: cursive, sans-serif;
+    }
+
+    body {
+        background-color: #3F3D56;
+
+    }
+    section#login {
+        width: 80vw;
+        
+        
+    }
+
+    section#login > div#imagem {
+        
+        height: 90%;
+        width: 55%;
+        float: left;
+        border-bottom: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.705); 
+      
+    }
+
+    div#formulario  {
+        padding: 50px;
+    }
+
+    section#login > div#formulario {
+        
+        float: right;
+        width: 45%;
+        
+        
+    }
+    
+  
+    
+}
+/* Notbook para cima */
+@media screen and (min-width: 992px) {
+
+    *{
+        font-family: cursive, sans-serif;
+    }
+    
+    body {
+        background-color: #3F3D56;
+    }
+    
+    section#login {
+        width: 970px;
+    }
+
+    section#login > div#imagem {
+        
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-bottom: none;
+        border-left: 1px solid rgba(0, 0, 0, 0.705); 
+
+    }
+    section#login > div#formulario {
+        padding: 40px;
+        float: left;
+        width: 50%;
+        
+    }
+    
+    div#formulario > p {
+        padding: 20px;
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+    }
+
+}
